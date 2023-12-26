@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+  min-height: 100vh;
+  padding: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+}
+.heading {
+  font-family: 'Bree Serif';
+  color: #1e293b;
+}
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: solid;
+  border-color: #7b8794;
+  border-radius: 5px;
+  width: 38vh;
+  padding: 10px;
+  border-width: 2px;
+}
+.input-element {
+  border: 0;
+  background-color: transparent;
+  width: 50vh;
+  outline: none;
+  color: #7b8794;
+  font-weight: 700;
+}
+.search-icon {
+  height: 25px;
+}
+.tabs-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.apps-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
